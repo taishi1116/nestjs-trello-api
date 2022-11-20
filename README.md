@@ -43,3 +43,11 @@
 
 ※ 仕組みとしてはpackage.jsonの依存関係に含まれている`git-cz`を利用しています。
 
+
+
+# リリース
+
+package.jsonに定義しているreleaseコマンドを利用してください。
+コマンドを実施すると`standard-version`というライブラリがCHANGELOG.mdを自動的に作成してくれます。
+
+{手が空いたらgithub actionsと連携させてリリースノートに自動反映させるようにする}
