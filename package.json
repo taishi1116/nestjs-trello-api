@@ -3,6 +3,9 @@
   "private": true,
   "version": "1.0.0",
   "description": "Nest TypeScript starter repository",
+  "engines": {
+    "node": "18.x"
+  },
   "license": "MIT",
   "scripts": {
     "build": "nest build",
