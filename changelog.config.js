@@ -14,7 +14,7 @@ module.exports = {
   ],
   maxMessageLength: 64,
   minMessageLength: 3,
-  questions: ['type', 'subject'],
+  questions: ['type', 'subject', 'body'],
   scopes: [],
   types: {
     chore: {
